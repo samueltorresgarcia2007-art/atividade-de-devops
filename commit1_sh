@@ -1,0 +1,7 @@
+# Cria o arquivo para ignorar arquivos desnecessários
+echo "node_modules/" >> .gitignore
+echo ".env" >> .gitignore
+
+# Faz o primeiro commit
+git add .gitignore
+git commit -m "chore: adicionar arquivo .gitignore inicial"
