@@ -1,0 +1,5 @@
+# Volta para a branch main
+git checkout main
+
+# Faz o merge trazendo as alterações da feature-uso
+git merge feature-uso --no-ff -m "merge: unificar branch feature-uso na main"
