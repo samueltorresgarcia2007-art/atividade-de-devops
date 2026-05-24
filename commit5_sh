@@ -1,0 +1,9 @@
+# Cria e muda para a nova branch
+git checkout -b feature-uso
+
+# Atualiza o README com a seção de Uso dentro da nova branch
+echo -e "# Guia do Projeto de Git\n\n## Objetivo\nEste projeto e um guia pratico desenvolvido para fixar os comandos essenciais do Git e o fluxo de trabalho colaborativo no GitHub.\n\n## Instalação\n1. Clone o repositorio: \`git clone <url>\`\n2. Entre na pasta: \`cd guia-do-projeto\`\n\n## Uso\nExplore o historico de commits usando o comando \`git log --oneline\` para entender a evolucao do projeto." > README.md
+
+# Faz o quinto commit (na branch feature-uso)
+git add README.md
+git commit -m "docs: finalizar secao de uso do projeto"
