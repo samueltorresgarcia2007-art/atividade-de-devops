@@ -1,0 +1,6 @@
+# Reescreve o README adicionando o texto do Objetivo
+echo -e "# Guia do Projeto de Git\n\n## Objetivo\nEste projeto e um guia pratico desenvolvido para fixar os comandos essenciais do Git e o fluxo de trabalho colaborativo no GitHub.\n\n## Instalação\n\n## Uso" > README.md
+
+# Faz o terceiro commit
+git add README.md
+git commit -m "docs: detalhar a secao de objetivo no guia"
