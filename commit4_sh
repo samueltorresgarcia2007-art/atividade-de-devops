@@ -1,0 +1,6 @@
+# Atualiza o README com a seção de Instalação
+echo -e "# Guia do Projeto de Git\n\n## Objetivo\nEste projeto e um guia pratico desenvolvido para fixar os comandos essenciais do Git e o fluxo de trabalho colaborativo no GitHub.\n\n## Instalação\n1. Clone o repositorio: \`git clone <url>\`\n2. Entre na pasta: \`cd guia-do-projeto\`\n\n## Uso" > README.md
+
+# Faz o quarto commit
+git add README.md
+git commit -m "docs: adicionar instrucoes de instalacao no README"
